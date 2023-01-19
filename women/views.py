@@ -34,6 +34,7 @@ def addpage(request):
 
 def contact(request):
     return HttpResponse('Contact page')
+
 def login(requsest):
     return HttpResponse('Authorization')
 
